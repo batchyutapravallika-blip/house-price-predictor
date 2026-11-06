@@ -7,7 +7,6 @@ import gradio as gr
 import joblib
 import pandas as pd
 
-
 import feature_engineering  # noqa: F401  (the saved pipeline needs add_age_features from this module)
 
 APP_DIR = Path(__file__).parent
